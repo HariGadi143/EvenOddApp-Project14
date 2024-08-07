@@ -1,0 +1,46 @@
+.mainContainer {
+  max-width: 1400px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.countWrapper {
+  padding: 100px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+}
+
+.countWrapper h1 {
+  font-size: 35px;
+  font-weight: 500;
+  color: black;
+}
+.countWrapper h3 {
+  color: #334155;
+  font-size: 25px;
+  font-weight: 400;
+}
+.countWrapper button {
+  border-radius: 10px;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  font-size: 15px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.countWrapper p {
+  color: black;
+  font-size: 14px;
+  font-weight: 300;
+}
